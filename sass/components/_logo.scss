@@ -1,0 +1,21 @@
+.logo {
+    margin-right: 93px;
+
+    @include font-face (700, 26px, 1.19, 0.03em);
+
+    font-family: Raleway;
+        
+    color: var(--accent-color)
+}
+
+.header-logo-accent {
+    color: #000000;
+}
+
+.logo-secondary-accent {
+    color: var(--primary-white-color);
+}
+
+.logo-secondary {
+    display: block;
+    margin-bottom: 20px;}

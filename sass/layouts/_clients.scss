@@ -1,0 +1,34 @@
+.clients__clients-link-list {
+    @include flex (flex, center);
+    
+    gap: 30px;
+}
+
+.clients__clients-link {
+    width: 170px;
+    height: 92px;
+
+    @include flex (flex, center, center);
+  
+    border: 1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
+
+    transition: border 250ms var(--timing-function);
+    
+    &:hover, &:focus {
+    border: 1px solid var(--accent-color);}
+}
+
+
+
+.clients__clients-link-icon {
+
+    fill: rgba(175, 177, 184, 1);
+
+    transition: fill 250ms var(--timing-function);
+ 
+    .clients__clients-link:hover &,
+    .clients__clients-link:focus & {
+    fill: var(--accent-color);}
+}
+
