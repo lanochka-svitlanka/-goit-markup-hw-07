@@ -8,7 +8,7 @@
     @include flex (flex, null, baseline );
 }
 
-.address-street {
+.address__street {
     margin-bottom: 9px;
 
     @include font-face (400, 14px, 1.71, 0.03em);
@@ -18,7 +18,7 @@
     color: var(--primary-white-color);
 }
 
-.address-link {
+.address__link {
     display: block;
 
     @include font-face (400, 14px, 1.71, 0.03em);
@@ -31,7 +31,7 @@
     margin-bottom: 9px;}
 }
 
-.logo-address {
+.footer-address {
     margin-right: 70px;
 }
 
@@ -39,7 +39,7 @@
     margin-right: 93px;
 }
 
-.join-in-text {
+.join-in__text {
     margin-bottom: 20px;
 
     @include font-face (700, 14px, 1.14, 0.03em);
@@ -49,14 +49,14 @@
     color: var(--primary-white-color);
 }
 
-.join-in-soc-link-items {
-    @include flex (flex, center);
+.soc-list-footer {
+    @include flex (flex, center, null);
     
     gap: 10px;
 
 }
 
-.join-in-soc-link {
+.soc-list__link--dark {
     background-color: rgba(255, 255, 255, 0.1);
     &:hover, 
     &:focus {
@@ -65,17 +65,12 @@
 }
 
 
-.join-in-soc-icon {
-    fill: var(--primary-white-color);
-}
-
-
-.subscribe-field {
+.subscribe__field {
     @include flex (flex, null, baseline);
     
 }
 
-.subscribe-title {
+.subscribe__title {
 
     @include font-face (700, 14px, 1.14, 0.03em);
 
@@ -84,7 +79,7 @@
     text-transform: uppercase;
 }
 
-.subscribe-input {
+.subscribe__input {
     width: 358px;
     height: 50px;
 
@@ -111,7 +106,7 @@
     color: rgba(255, 255, 255, 0.6);}
 }
 
-.subscribe-button {
+.subscribe__button {
     @include flex (flex, null, center);
   
     width: 200px;
@@ -120,7 +115,7 @@
 
 }
 
-.subscribe-button-icon {
+.subscribe__button-icon {
     margin: 0;
     padding: 0;
     margin-left: 10px;

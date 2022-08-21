@@ -1,10 +1,10 @@
-.clients__clients-link-list {
-    @include flex (flex, center);
+.clients-list {
+    @include flex (flex, center, null);
     
     gap: 30px;
 }
 
-.clients__clients-link {
+.clients-list__link {
     width: 170px;
     height: 92px;
 
@@ -21,14 +21,14 @@
 
 
 
-.clients__clients-link-icon {
+.clients-list__link-icon {
 
     fill: rgba(175, 177, 184, 1);
 
     transition: fill 250ms var(--timing-function);
  
-    .clients__clients-link:hover &,
-    .clients__clients-link:focus & {
+    .clients-list__link:hover &,
+    .clients-list__link:focus & {
     fill: var(--accent-color);}
 }
 

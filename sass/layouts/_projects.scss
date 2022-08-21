@@ -1,5 +1,5 @@
 .projects-nav-list {
-    @include flex (flex, center);
+    @include flex (flex, center, null);
     
     margin-bottom: 50px;
 }

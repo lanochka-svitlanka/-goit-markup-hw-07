@@ -1,6 +1,5 @@
 .logo {
-    margin-right: 93px;
-
+    
     @include font-face (700, 26px, 1.19, 0.03em);
 
     font-family: Raleway;
@@ -8,11 +7,11 @@
     color: var(--accent-color)
 }
 
-.header-logo-accent {
+.logo--black {
     color: #000000;
 }
 
-.logo-secondary-accent {
+.logo--white {
     color: var(--primary-white-color);
 }
 
